@@ -8,25 +8,25 @@
   </tr>
 </table>
 
-## Files
+## Slides
 
-* `images/plots.R` to produce any plot used.
+* HTML: http://schloerke.com/presentation-2021-01-rstudio-global-plumber-async
 
-* `tidymodels.Rmd` contains the `xaringan` version of the slides that make the HTML and PDF versions.
-
-* `racing_code.R` and `sa_code.R` have the code for the examples shown in the presentation.
+* PDF: http://schloerke.com/presentation-2021-01-rstudio-global-plumber-async/plumber_future.pdf
 
 
 ## Resources for learning more
 
 * [`plumber` webpage](https://www.rplumber.io/)
+  * An API Generator for R
 
 * [`future` webpage](https://github.com/HenrikBengtsson/future)
+  * Unified Parallel and Distributed Processing in R for Everyone
 
-* [_Tidy Modeling with R_](https://www.tmwr.org/) book
+* [`promises` webpage](https://rstudio.github.io/promises/)
+  * Abstractions for Promise-Based Asynchronous Programming
 
-  - Chapter 13 (_Grid Search_, upcoming) has details on racing methods
 
-  - Chapter 14 (_Iterative search_, upcoming) describes simulated annealing
+## Abstract
 
-* [`finetune` webpage](https://finetune.tidymodels.org/) and [blog post](https://www.tidyverse.org/blog/2020/12/finetune-0-0-1/)
+`plumber` is an R package that allows users to create web APIs by decorating R functions using `roxygen2`-like comments. In the latest release, asynchronous code (using `future` or `promises`) may be inserted at any stage of a `plumber` route execution, enabling parallel processing using multiple workers. In this talk, I will go through how you can set up your own asynchronous `plumber` API to leverage your full computing potential.
