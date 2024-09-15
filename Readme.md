@@ -14,6 +14,7 @@
 
 * PDF: http://schloerke.com/presentation-2021-01-rstudio-global-plumber-async/plumber_future.pdf
 
+* Recording: https://cloud.rstudio.com/resources/rstudioglobal-2021/plumber-and-future-async-web-apis/
 
 ## Resources for learning more
 
